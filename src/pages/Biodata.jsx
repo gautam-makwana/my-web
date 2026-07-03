@@ -32,7 +32,7 @@ const Biodata = () => {
 
           <div className="address">
             <div><i className="fa-solid fa-location-dot"></i>Address :</div>
-            <div className="number">Royal Park-1, Street No.-4, Kotada Sangani Road, Gondal-360311</div>
+            <div className="number">Royal Park-1, Kotada Sangani Road, Gondal-360311</div>
           </div>
         </section>
 
@@ -96,15 +96,11 @@ const Biodata = () => {
           </div>
           <div className="detail">
             <section>Brother's Name:</section>
-            <section>Utkarsh Atulbhai Makwana (Unmarried)</section>
+            <section>Utkarsh Atulbhai Makwana</section>
           </div>
           <div className="detail">
             <section>Father's Occupation :</section>
-            <section>Labour Work</section>
-          </div>
-          <div className="detail">
-            <section>Father's Contact No :</section>
-            <section>9979399501</section>
+            <section>Business</section>
           </div>
         </section>
       </div>

@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(typedEl.current, {
-      strings: ["Frontend Developer"],
+      strings: ["MERN Stack Developer"],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 1000,
@@ -44,7 +44,7 @@ const Home = () => {
           <div className="text1" data-aos="fade-down" data-aos-offset="0">Hello, it's me</div>
           <div className="text2" data-aos="fade-right" data-aos-offset="0">Gautam Makwana</div>
           <div className="text3" data-aos="fade-up" data-aos-offset="0">And I'm a <span className="multiple" ref={typedEl}></span></div>
-          <div className="text4" data-aos="fade-left" data-aos-offset="0">Third-year BCA student building responsive web applications with React JS, JavaScript (ES6+), HTML5, and CSS3, backed by strong foundations in C, C++, Core Java, Python, and MySQL. Delivered academic and bootcamp projects integrating RESTful APIs and component-based state management, improving hands-on proficiency in cross-browser, mobile-responsive frontend development. Seeking a Junior Frontend Developer Intern role to apply React fundamentals (hooks, props, state) in a collaborative, fast-paced engineering team.</div>
+          <div className="text4" data-aos="fade-left" data-aos-offset="0">BCA Graduate building responsive web applications with React JS, JavaScript (ES6+), HTML5, and CSS3, backed by strong foundations in C, C++, Core Java, Python, MySQL and MERN Stack. Delivered academic and bootcamp projects integrating component-based state management, improving hands-on proficiency in cross-browser, mobile-responsive frontend development.</div>
           <Link to="/biodata" data-aos="zoom-in" className="about-me" data-aos-offset="0">
             More About Me
           </Link>
@@ -68,6 +68,12 @@ const Home = () => {
           <i className="fa-solid fa-address-card"></i>
           <p>Biodata</p>
           <div>You can see my personal, family, education and some other details.</div>
+        </div>
+
+        <div className="boxes" onClick={() => navigate('/contact')} data-aos="fade-up" style={{ cursor: 'pointer' }}>
+          <i className="fa-solid fa-envelope"></i>
+          <p>Contact</p>
+          <div>Feel free to reach out to me for work or collaborations.</div>
         </div>
       </div>
 
